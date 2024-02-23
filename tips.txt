@@ -1,0 +1,41 @@
+bar - avg value of a type of item
+
+scatter/violin/boxplot for all values of a type of item
+
+as def increases, how does value change?
+
+scikit-learn has function to turn text into attributes
+count vectorizer
+
+
+
+GOALS
+-----
+
+bar plot of average value by item type
+
+violin/boxplot for value by type
+
+as str increases, how does value change?
+value - ge value
+
+
+
+
+DONE
+----
+get data into a pandas df
+
+clean up data
+	add item type column
+	remove untradable items
+	2nd part in collection not needed - weapons already in first json
+	
+scatter plot price by one stat
+
+get data from main table
+	use code from other loop
+
+fix ge limit / daily volume columns
+
+fix '1 coin'
